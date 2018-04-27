@@ -1,0 +1,38 @@
+{
+  "name": "express_app",
+  "version": "1.0.0",
+  "description": "express app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "LiveCoder",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-pbkdf": "^1.0.1",
+    "body-parser": "^1.18.2",
+    "eslint": "^4.19.1",
+    "eslint-plugin-react-native": "^3.2.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "graceful-fs": "^4.1.11",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8",
+    "hbs": "^4.0.1",
+    "lodash": "^4.17.5",
+    "minimatch": "^3.0.4",
+    "mongoose": "^5.0.15",
+    "natives": "^1.1.3",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-native": "^0.55.3",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "request": "^2.85.0",
+    "socket.io": "^2.1.0",
+    "tweetnacl": "^1.0.0",
+    "webpack": "^4.6.0",
+    "yargs": "^11.0.0"
+  }
+}
