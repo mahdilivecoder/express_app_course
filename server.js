@@ -2,7 +2,7 @@ const express = require('express');
 const hbs=require('hbs');
 const fs=require('fs');
 var app=express();
-
+const port=process.env.PORT || 3000;
 //hbs seting
 app.set('view engine','hbs');
 hbs.registerPartials(__dirname + '/views/partials');
@@ -48,7 +48,7 @@ app.get('/web',(req,resp,next)=>{
 app.get('/about',(req,resp,next)=>{
    resp.send('<h1>About my website</h1>');
 });
-app.listen(3000,()=>{
-   console.log('App runing on port 3000');
+app.listen(port,()=>{
+   console.log('App runing on port'+port);
 
 });
