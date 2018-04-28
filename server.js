@@ -6,10 +6,8 @@ const port=process.env.PORT || 3000;
 //hbs seting
 app.set('view engine','hbs');
 hbs.registerPartials(__dirname + '/views/partials');
-//maintenance
-app.use('',(req,resp,next)=>{
-    resp.render('maintenance.hbs');
-});
+//maintenance here
+
 //seting and using static files
 app.use(express.static(__dirname + '/static'));
 app.use('',(req,resp,next)=>{
